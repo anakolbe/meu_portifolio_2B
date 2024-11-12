@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 
 :root {
-  --cor-principal:
+  --cor-principal:rgb(93, 18, 219);
+  --cor-secundaria: white;
+  --cor-destaque: grey
+}
+
+body {
+  font-family: 'faculty', sans-serif;
+}
+
+h1, h2, h5{
+  color: var(--cor-secundaria);
+  font-weigth: 400
+}
+
+footer a {
+  color: var(--cor-principal);
+}
+
+footer a: hover {
+  color: var(--cor-destaque);
+}
